@@ -12,6 +12,7 @@ sentences = [
 
 embeddings = model.encode(sentences)
 
+print("hellow")
 print("Number of sentences:", len(sentences))
 print("Shape of embeddings:", embeddings.shape)  # (5, 384)
 print("\nFirst 10 numbers of sentence 1's vector:")
